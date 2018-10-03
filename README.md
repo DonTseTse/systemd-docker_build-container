@@ -10,10 +10,11 @@ container. Useful if Golang is not available or desired on the Docker host itsel
 - once these operations are finished, the container shuts down; the Docker client removes it
 - `systemd-docker` is available in the same folder as `run_compilation.sh`
 
-# How To
+## How To
 - Clone this repository on a machine with Docker installed
 - run `run_compilation.sh [<git-go-uri>]`
   - if no `git-go-uri` is provided, it defaults to *github.com/dontsetse/systemd-docker* 
+    ([repository](https://github.com/DonTseTse/systemd-docker))
   - `git-go-uri` should be a `go get` compatible URI - a GitHub repository with the URL pattern 
     
     `https://github.com/<username>/<repository_name>.git` 
