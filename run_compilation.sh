@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ### Parameters
 go_get_repository_uri="github.com/dontsetse/systemd-docker"
 
