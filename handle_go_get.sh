@@ -1,3 +1,5 @@
+#! /bin/bash
+
 ### Parameters
 # 1 - repository to build (URL/path in go get style, where the web https://github.com/<username>/<repo_name>.git has to be written github.com/<username>/<repo_name>
  
